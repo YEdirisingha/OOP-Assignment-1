@@ -1,4 +1,7 @@
-public class burger{
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+class burger{
     private String name;
     private double price;
 
@@ -13,9 +16,11 @@ public class burger{
         return name+" Rs. "+price;
     }
 }
-public class billGenerate{
+class billGenerate{
     
 }
 public class burgerShop {
-    
+    public static void main(String args[]){
+        System.out.println(getName());
+    }
 }

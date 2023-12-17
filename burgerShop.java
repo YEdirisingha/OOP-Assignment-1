@@ -17,10 +17,26 @@ class burger{
     }
 }
 class billGenerate{
-    
+    private List<Burger> order;
+
+    public billGenerate(){
+        order =new ArrayList<>();
+    } 
+    public void addBurger(){
+
+    }
+    public double calculateTotal()
+    {
+
+    }
+    public void displayOrder()
+    {
+
+    }
 }
 public class burgerShop {
     public static void main(String args[]){
-        System.out.println(getName());
+        
+        
     }
 }

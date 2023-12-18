@@ -61,5 +61,26 @@ public class burgerShop {
         Burger cola=new Burger("Coca-cola",100);
         Burger hotchoc=new Burger("Hot Chocolate",100);
         Burger tea=new Burger("Brew Tea",100);
+
+        System.out.println("Menu: ");
+        System.out.println("STARTES");
+        System.out.println("1. "+hotCake);
+        System.out.println("2. "+hashbr);
+        System.out.println();
+        System.out.println("ENTREES");
+        System.out.println("3. "+hamburg);
+        System.out.println("4. "+cheeseburg);
+        System.out.println("5. "+hotdog);
+        System.out.println();
+        System.out.println("DESSERT");
+        System.out.println("6. "+pie);
+        System.out.println("7. "+shakes);
+        System.out.println("8. "+mcfurry);
+        System.out.println();
+        System.out.println("DRINKS");
+        System.out.println("9. "+cola);
+        System.out.println("10. "+hotchoc);
+        System.out.println("11. "+tea);
+
     }
 }

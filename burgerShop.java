@@ -15,6 +15,9 @@ class Burger{
     public String getName(){
         return name+" Rs. "+price;
     }
+    public String toString() {
+        return name + " - Rs." + price;
+    }
 }
 class BillGenerate{
     private List<Burger> order;
@@ -81,6 +84,59 @@ public class burgerShop {
         System.out.println("9. "+cola);
         System.out.println("10. "+hotchoc);
         System.out.println("11. "+tea);
+
+        BillGenerate cOrder = new BillGenerate();
+
+        char choise='y';
+
+        while(choise=='y'||choise=='Y'){
+            System.out.println("Choose your order (1-11) : ");
+            int orderChoise=sc.nextInt();
+            
+            switch(orderChoise){
+                case 1:
+                    cOrder.addBurger(hotCake);
+                    break;
+                case 2:
+                    cOrder.addBurger(hashbr);
+                    break;
+                case 3:
+                    cOrder.addBurger(hamburg);
+                    break;
+                case 4:
+                    cOrder.addBurger(cheeseburg);
+                    break;
+                case 5:
+                    cOrder.addBurger(hotdog);
+                    break;
+                case 6:
+                    cOrder.addBurger(pie);
+                    break;
+                case 7:
+                    cOrder.addBurger(shakes);
+                    break;
+                case 8:
+                    cOrder.addBurger(mcfurry);
+                    break;
+                case 9:
+                    cOrder.addBurger(cola);
+                    break;
+                case 10:
+                    cOrder.addBurger(hotchoc);
+                    break;
+                case 11:
+                    cOrder.addBurger(tea);
+                    break;
+                default:
+                    System.out.println("Invalid choise. Please enter a number between 1 and 11.");
+                    continue;
+            }
+            System.out.println("Do you want add more food? (y/n) ");
+            choise=sc.next().charAt(0);
+        }
+        cOrder.displayOrder();
+
+        sc.close();
 
     }
 }

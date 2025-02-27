@@ -1,0 +1,25 @@
+errors - 
+
+mentor should not able to review emty task days.
+when mentor click the emty day task its pop up the mentor task details window. its not need. if mentor click emty date it should
+be display some popup that says "not any task submited this day".
+mentor should not able to click future dates.
+
+in mentor diary mentor canot delete entered data. its shows NO Title when delete it.
+
+mentor should not able to save the task details without notes. its show an error but its disapeared queickly. error message should be display as a popup. 
+
+features - 
+add cross symbol insted of close button
+
+add profile edditor setting button
+
+each page should display topic (eg - mentor dashbord, student dashboard..,etc)
+
+add "are you sure" yes or no promt for logout button.
+
+metor dashboard should display the student count that registered 
+
+add notification bar to display notifications about pendinding reviews
+
+add theme changing function (dark mode, light mode) make it autochanging between night and day
